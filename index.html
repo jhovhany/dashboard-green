@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
+                        <span class="title">Jhovhany</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <span class="title">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                        <span class="title">Mensajes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                        <span class="title">Ayuda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                        <span class="title">Configuracion</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <span class="title">Password</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                        <span class="title">Salir</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <!-- search -->
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Buscar aqui">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+                <!-- userImg -->
+                <div class="user">
+                    <img src="user.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!-- cards -->
+            <div class="cardBox">
+               
+                    <div class="card">
+                        <div>
+                            <div class="numbers">1,504</div>
+                            <div class="cardName">Vistas Diarias</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                         <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Ventas</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </div>
+                    </div>
+                   
+                    
+                    <div class="card">
+                        <div>
+                            <div class="numbers">284</div>
+                            <div class="cardName">Comentarios</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="chatbubbles-outline"></ion-icon>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <div class="numbers">$7,842</div>
+                            <div class="cardName">Ganancias</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="cash-outline"></ion-icon>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="details">
+                <!-- order details list -->
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Pedidos Recientes</h2>
+                        <a href="#" class="btn">Ver Todo</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Nombre</td>
+                                <td>Precio</td>
+                                <td>Pago</td>
+                                <td>Estado</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Celular</td>
+                                <td>$1200</td>
+                                <td>Pagado</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>TV</td>
+                                <td>$1200</td>
+                                <td>Pagado</td>
+                                <td><span class="status pending">Pendiente</span></td>
+                            </tr>
+                            <tr>
+                                <td>Refrigerador</td>
+                                <td>$1200</td>
+                                <td>Pagado</td>
+                                <td><span class="status return">Devuelto</span></td>
+                            </tr>
+                            <tr>
+                                <td>Horno</td>
+                                <td>$1200</td>
+                                <td>Pagado</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Clima</td>
+                                <td>$1200</td>
+                                <td>En progreso</td>
+                                <td><span class="status inprogress">En progreso</span></td>
+                            </tr>
+                            <tr>
+                                <td>TV</td>
+                                <td>$1200</td>
+                                <td>En progreso</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Computadora</td>
+                                <td>$27000</td>
+                                <td>Pagado</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Lavadora</td>
+                                <td>$16000</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Secadora</td>
+                                <td>$450</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Plancha</td>
+                                <td>$120</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- New Customers -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Clientes Recientes</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="img1.jpg" alt=""></div></td>
+                            <td><h4>David<br><span>Italia</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="img2.jpg" alt=""></div></td>
+                            <td><h4>José<br><span>Mexico</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="img3.jpg" alt=""></div></td>
+                            <td><h4>Alba<br><span>Argentina</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="img4.jpg" alt=""></div></td>
+                            <td><h4>Ana<br><span>Alemania</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="img5.jpg" alt=""></div></td>
+                            <td><h4>Pedro<br><span>Chile</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="img6.jpg" alt=""></div></td>
+                            <td><h4>Miguel<br><span>Reino Unido</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="img7.jpg" alt=""></div></td>
+                            <td><h4>Paola<br><span>Brasil</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="img8.jpg" alt=""></div></td>
+                            <td><h4>Pablo<br><span>Ucrania</span></h4></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+
+        toggle.onclick = function(){
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+
+        // add hovered class in selected list item
+        let list = document.querySelectorAll('.navigation li');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('hovered'));
+            this.classList.add('hovered');
+        }
+        list.forEach((item) =>
+        item.addEventListener('mouseover', activeLink));
+    </script>
+</body>
+</html>
